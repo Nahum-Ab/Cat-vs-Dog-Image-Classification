@@ -8,10 +8,6 @@ This project implements a Support Vector Machine (SVM) model to classify images 
 - [Dataset](#dataset)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Code Explanation](#code-explanation)
-- [Evaluation](#evaluation)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -34,3 +30,47 @@ You can install the required libraries using pip:
 
 ```bash
 pip install opencv-python numpy scikit-learn
+```
+
+## Usage
+
+To use this project, follow these steps:
+
+1. **Clone the Repository**: Start by cloning the repository to your local machine. Open your terminal and run:
+
+   ```bash
+   git clone https://github.com/yourusername/cat-dog-classification.git
+   cd cat-dog-classification
+   ```
+
+2. **Set Up the Dataset**: Download the Dogs vs. Cats dataset from Kaggle. Extract the contents and ensure that the images are organized in the following structure:
+
+   ```text
+   /path/to/dataset/train/
+    ├── cat.1.jpg
+    ├── cat.2.jpg
+    ├── dog.1.jpg
+    ├── dog.2.jpg
+    └── ...
+   ```
+
+3. **Update the Dataset Path**: Open the classify.py file and update the data_dir variable to point to the location of your dataset:
+
+   ```python
+   data_dir = 'path/to/dataset/train'  # Update this path to where the dataset is located, Please becarefull here cause the code works if you specifiy the correct PATH!
+   ```
+
+4. **Install Required Libraries**: Make sure you have the necessary Python libraries installed. You can install them using pip:
+
+   ```bash
+   pip install opencv-python numpy scikit-learn
+   ```
+
+5. **Run the code, See the result**: Execute the script to train the model and evaluate its performance:
+
+   ```bash
+   python classify.py
+   ```
+
+
+
