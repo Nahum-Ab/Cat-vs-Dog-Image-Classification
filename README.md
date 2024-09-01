@@ -20,3 +20,17 @@ The goal of this project is to develop a machine learning model that can accurat
 ## Dataset
 
 The dataset used for this project is the **Dogs vs. Cats** dataset from Kaggle. You can download the dataset from [here](https://www.kaggle.com/c/dogs-vs-cats/data).
+Make sure to replace the path in the code with the actual path to your dataset.
+
+## Installation
+
+To run this project, you'll need to have Python installed along with the following libraries:
+
+- OpenCV
+- NumPy
+- scikit-learn
+
+You can install the required libraries using pip:
+
+```bash
+pip install opencv-python numpy scikit-learn
