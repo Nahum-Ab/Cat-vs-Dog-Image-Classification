@@ -57,7 +57,7 @@ To use this project, follow these steps:
 3. **Update the Dataset Path**: Open the classify.py file and update the data_dir variable to point to the location of your dataset:
 
    ```python
-   data_dir = 'path/to/dataset/train'  # Update this path to where the dataset is located, Please becarefull here cause the code works if you specifiy the correct PATH!
+   data_dir = 'C:\\Users\\acer\\OneDrive\\Desktop\\Classify_images\\train'  # Update this path to where the dataset is located, Please becarefull here cause the code works if you specifiy the correct PATH!
    ```
 
 4. **Install Required Libraries**: Make sure you have the necessary Python libraries installed. You can install them using pip:
