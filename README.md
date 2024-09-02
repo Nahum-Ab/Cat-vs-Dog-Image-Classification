@@ -39,7 +39,7 @@ To use this project, follow these steps:
 1. **Clone the Repository**: Start by cloning the repository to your local machine. Open your terminal and run:
 
    ```bash
-   git clone https://github.com/yourusername/cat-dog-classification.git
+   git clone https://github.com/Nahum-Ab/cat-dog-classification.git
    cd cat-dog-classification
    ```
 
